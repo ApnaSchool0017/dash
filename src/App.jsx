@@ -19,7 +19,7 @@ function App() {
             <Route path="/" element={<MainDashboard />} />
             <Route path="todo" element={<Todo />} />
             <Route path="currencyconverter" element={<CurrencyConverter/>} />
-            <Route path="*" element={<ErrorPage />} />
+            <Route path="/*" element={<ErrorPage />} />
           </Routes>
         </div>
       </Router>

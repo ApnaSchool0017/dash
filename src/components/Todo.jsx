@@ -32,7 +32,7 @@ const App = () => {
         <div className="p-6">
           {/* todo input */}
           <input
-            className=" bg-slate-200 rounded-full px-6 py-4 m-3 shadow-lg"
+            className=" bg-slate-200 rounded-full focus:outline-none px-6 py-4 m-3 shadow-lg"
             type="text"
             value={task}
             onChange={(e) => {
